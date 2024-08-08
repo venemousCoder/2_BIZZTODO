@@ -4,7 +4,7 @@
   "description": "An application that efficiently helps in organising tasks and boosting productivity.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "cypress"
   },
   "repository": {
