@@ -5,4 +5,4 @@ Also the application uses the _express-session_ packsge which uses the default s
 the _memory store_, so the <a href './utils/sessionCache.js'>_sessionCache_</a> uses the _memory store_
 also, which means it gets cleared everytime the server restarts.
 
-**THE DOCS ARE IN THE THUNDERCLIENT FILE**
+**THE DOCS ARE IN THE thunder-collection_TODO_LIST_DOCS.json*
