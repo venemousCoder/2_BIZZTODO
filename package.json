@@ -1,0 +1,33 @@
+{
+  "name": "bizztodo",
+  "version": "1.0.0",
+  "description": "An application that efficiently helps in organising tasks and boosting productivity.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "cypress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venemousCoder/2_bizz_todo_app.git"
+  },
+  "author": "venemousCoder (Ahmad Dalha)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/venemousCoder/2_bizz_todo_app/issues"
+  },
+  "homepage": "https://github.com/venemousCoder/2_bizz_todo_app#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "cypress": "^13.13.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "express-validator": "^7.1.0",
+    "joi": "^17.13.3",
+    "mongoose": "^8.5.2",
+    "passport": "^0.7.0",
+    "passport-local-mongoose": "^8.0.0"
+  }
+}
