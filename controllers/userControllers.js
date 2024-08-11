@@ -75,6 +75,10 @@ function updateUser(req, res, next) {
         })
 }
 
+function resetPassword(req, res, next){
+
+}
+
 function deleteUser(req, res, next) {
     User.findByIdAndDelete(req.user.id)
         .then((deletedUser) => {
@@ -154,4 +158,4 @@ function logout(req, res, next) {
 }
 
 
-module.exports = { createUser, viewUser, updateUser, deleteUser, login, logout }
+module.exports = { createUser, viewUser, updateUser, resetPassword, deleteUser, login, logout }
